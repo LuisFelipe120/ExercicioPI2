@@ -1,0 +1,20 @@
+{
+  "name": "exerciciopi2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/LuisFelipe120/ExercicioPI2.git)"
+  },
+  "author": "Luis Felipe",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
