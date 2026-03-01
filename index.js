@@ -4,7 +4,6 @@ const host = '0.0.0.0';
 const porta = 3000;
 
 const app = express();
-app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 var listaTimes = [];
 
@@ -49,7 +48,7 @@ app.get('/times', (req, res) => {
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         </head>
         <body>
-<section class="intro" style="background-image:url('/assets/images/soccer-488700_1280.jpg');; background-size:cover; background-position:center;">  <div class="mask d-flex align-items-center h-100 gradient-custom">
+<section class="intro">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-9 col-xl-7">
