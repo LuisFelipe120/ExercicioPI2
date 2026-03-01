@@ -221,7 +221,7 @@ app.get("/listatimes", (req, res) => {
                         <th scope="col">Nascimento</th>
                         <th scope="col">Jogadores</th>
                         <th scope="col">Email</th>
-                        <   th scope="col">Numero</>
+                        <th scope="col">Numero</th>
                         <th scope="col">Divisão</th>
 
 
@@ -235,7 +235,7 @@ app.get("/listatimes", (req, res) => {
         res.write
         (`
             <tr>
-                <th scope="row">${i+1}</th>
+                <td scope="row">${i+1}</td>
                 <td>${time.nome}</td>
                 <td>${time.sociedade}</td>
                 <td>${time.nascimento}</td>
