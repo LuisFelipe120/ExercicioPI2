@@ -4,7 +4,7 @@ const host = '0.0.0.0';
 const porta = 3000;
 
 const app = express();
-
+app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 var listaTimes = [];
 
